@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
       <Nvbar></Nvbar>
-      <div className="flex flex-wrap w-full justify-around  bg-slate-400 h-screen pt-8 overflow-hidden">
+      <div className="flex flex-wrap w-full justify-around  bg-slate-400 h-screen pt-8 ">
         <Herocontent></Herocontent>
 
         <Herosecimg></Herosecimg>
