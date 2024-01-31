@@ -7,7 +7,7 @@ const Register = ({inptype , togfun}) =>{
   let [isTrue , isTrueup] = useState(true)
   
   return(
-    <div className= " h-screen flex justify-center items-center" id="main-div px-4 md:px-0">
+    <div className= " h-screen flex justify-center items-center  px-4 md:px-0" id="main-div">
       <div className="bg-white flex flex-col text-center rounded-md py-5 px-10 gap-4">
         <span className="text-4xl text-[#DC84F3] font-bold font-mono">Logo</span>
         <span className="text-blue-700 text-[14px]">Register</span>
